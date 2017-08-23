@@ -1,0 +1,26 @@
+{
+  "name": "iam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack -p",
+    "start": "webpack-dev-server --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jighead/IAM.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jighead/IAM/issues"
+  },
+  "homepage": "https://github.com/Jighead/IAM#readme",
+  "devDependencies": {
+    "css-loader": "^0.28.5",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.5.5",
+    "webpack-dev-server": "^2.7.1"
+  }
+}
