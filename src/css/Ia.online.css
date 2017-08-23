@@ -1,0 +1,1885 @@
+.ia-commentico {
+    background-image: url('/Style Library/IA.Online/Images/icons/ia-comment.png');
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+    position: relative;
+    }
+    
+    .topMenu > ul {
+        list-style-type: none;
+    }
+    
+        .topMenu > ul > li {
+            margin: 5px;
+        }
+    
+    .topMenu > ul {
+        float: right;
+    }
+    
+    .topMenu ul li a {
+        color: black;
+    }
+    
+    .topMenu .dropdown-menu {
+        width: 50px !important;
+    }
+    
+    .topMenu .dropdown-menu li {
+        border:none;
+    }
+    #ia-article-author .ms-taxonomy .ms-taxonomy-control-holder .ms-taxonomy-fieldeditor {
+    width:300px;
+    }
+    #ia-article-topic .ms-taxonomy .ms-taxonomy-control-holder .ms-taxonomy-fieldeditor {
+    width:300px;
+    }
+    #ia-article-tag .ms-taxonomy .ms-taxonomy-control-holder .ms-taxonomy-fieldeditor {
+    width:300px;
+    }
+    /* =========================================================
+    article page/slider style - jp
+    ============================================================ */
+    .entry-box-padding {
+    padding: 0 15px;
+    }
+    .ia-page-content-slider {
+    padding: 0 15px;
+    }
+    .ia-slider {
+    margin-bottom: 20px;
+    }
+    #ia-article-col-a img {
+    display: block;
+    }
+    
+    @media (min-width:991px){
+    .ia-slider-responsive {
+    padding: 0 15px;
+    }
+    }
+    @media (max-width:979px){
+    span.jssora21r {
+    display:none;
+    }
+    span.jssora21l {
+    display:none;
+    }
+    }
+    @media (min-width:480px) and (max-width:767px){
+    #slider1_container img {
+    width: 600px!important;
+    height: 286px!important;
+    }
+    #slider1_container {
+    margin-left: -30px;
+    }
+    }
+    @media (max-width:479px){
+    #slider1_container {
+    margin-left: -20px;
+    height: 152px!important;
+    margin-bottom: -50px;
+    }
+    #slider1_container img {
+    width: 320px!important;
+    height: 152px!important;
+    }
+    }
+    @media (min-width:768px)and (max-width:979px){
+    #slider1_container {
+    margin-left: -50px;
+    }
+    #slider1_container img {
+    width: 775px!important;
+    height: 370px!important;
+    }
+    }
+    /*@media (min-width:481px) and (max-width:991px){
+    .ia-slider img {
+    width: 750px!important;
+    height: 252px!important;
+    }
+    span.jssora21r {
+    top: 100px!important;
+    right: 160px!important;
+    }
+    .ia-slider {
+    margin-left: -40px;
+    padding: 0 20px;
+    }
+    #slider2_container img {
+    display: block!important;
+    }
+    /*.ia-page-content-slider {
+    margin-top: -50px;
+    }
+    }*/
+    @media (max-width:450px){
+    .ia-slider-responsive img {
+    width: 300px!important;
+    height: 338px!important;
+    }
+    #slider2_container {
+    width: 300px!important;
+    height: 338px!important;
+    margin-bottom: -30px;
+    }
+    }
+    
+    /*@media (max-width:767px){
+    #slider1_container {
+    display: none;
+    }
+    }*/
+    /* =========================================================
+    adjust ul/ol style article page- jp
+    ============================================================ */
+    #pg-content ul {
+    margin-left: 30px;
+    list-style: square;
+    }
+    
+    #pg-content ol {
+    margin-left: 30px;
+    }
+    #pg-content ol li {
+    margin-bottom: 5px;
+    }
+    
+    
+    #pg-content ul ul {
+    list-style: circle;
+    margin-left: 20px;
+    }
+    
+    #pg-content ul ul ul {
+    list-style: disc;
+    margin-left: 20px;
+    }
+    
+    #pg-content ul li:last-child {
+     /*margin-bottom: 10px;*/
+    }
+    
+    #pg-content ul ul li:last-child {
+    margin-bottom: 10px;
+    }
+    
+    #pg-content ol li:last-child {
+    margin-bottom: 10px;
+    }
+    
+    #pg-content ol ol li:last-child {
+    margin-bottom: 10px;
+    }
+    /* =========================================================
+    adjust ul/ol style topic page- jp
+    ============================================================ */
+    #topicpage-layout ul {
+    margin-left: 30px;
+    list-style: square;
+    list-style-position:inside;
+    }
+    
+    #topicpage-layout ol {
+    margin-left: 30px;
+    }
+    
+    #topicpage-layout ul ul {
+    list-style: circle;
+    margin-left: 20px;
+    }
+    
+    #topicpage-layout ul ul ul {
+    list-style: disc;
+    margin-left: 20px;
+    }
+    
+    #topicpage-layout ul li:last-child {
+    margin-bottom: 10px;
+    }
+    
+    #topicpage-layout ul ul li:last-child {
+    margin-bottom: 10px;
+    }
+    
+    #topicpage-layout ol li:last-child {
+    margin-bottom: 10px;
+    }
+    
+    #topicpage-layout ol ol li:last-child {
+    margin-bottom: 10px;
+    }
+    
+    /* =========================================================
+    adjust #top-banner margin - jp
+    ============================================================ */
+    #top-banner {
+    margin-top: 25px;
+    }
+    @media (max-width:1023px){
+    #top-banner {
+    margin: 3px 0;
+    }
+    }
+    /* =========================================================
+    paragraph a, a:hover override - jp
+    ============================================================ */
+    p a {
+    color: #6EABBA!important;
+    }
+    p a:hover {
+    color: orange!important;
+    text-decoration:underline!important;
+    }
+    
+    /* =========================================================
+    toolbar override - jp
+    ============================================================ */
+    .ms-cui-dd-text, input.ms-cui-cb-input {
+    min-height: 22px!important;
+    }
+    .ms-cui-cb-input {
+    min-height: 22px!important;
+    }
+    .ms-cui-dd-arrow-button {
+    height: 22px!important;
+    
+    }
+    
+    /* =========================================================
+    banner ul/li override - jp
+    ============================================================ */
+    #ADArea-0590ad9f ul > li {
+    margin-left: -30px;
+    }
+    
+    /* =========================================================
+    banner ul/li override - jp
+    ============================================================ */
+    #ADArea-0590ad9f ul > li {
+    margin-left: -30px;
+    }
+     
+    /* =========================================================
+    ul/li override - jp
+    ============================================================ 
+    
+    ul li {
+    margin-left: 30px;
+    line-height: 1.5em;
+    }*/
+    
+    /* =========================================================
+    Heading Override for edit screen - jp
+    ============================================================ */
+    /* - changing h1,h2, h3 style - jp */
+    /*h1 {
+        color: #222!important;
+        font: 700 32px/34px Georgia, "Times New Roman", Times, serif!important;
+        letter-spacing: 0;
+        margin-bottom: 5px;
+    }
+    
+    h2 {
+        color: #222!important;
+        font: 700 28px/30px Georgia, "Times New Roman", Times, serif!important;
+        letter-spacing: 0;
+        margin-bottom: 5px;
+    }
+    
+    h3 {
+        color: #222!important;
+        font: 700 24px/26px Georgia, "Times New Roman", Times, serif!important;
+        letter-spacing: 0;
+        margin-bottom: 5px;
+    }*/
+    
+    h1 {
+        color: #222!important;
+        font: 700 24px/22px Georgia, "Times New Roman", Times, serif!important;
+        letter-spacing: 0;
+        margin-bottom: 5px;
+    }
+    
+    h2 {
+        color: #222!important;
+        font: 700 16px/20px Georgia, "Times New Roman", Times, serif!important;
+        letter-spacing: 0;
+        margin-bottom: 5px;
+    }
+    
+    h3 {
+        color: #222!important;
+        font: 700 14px/20px Georgia, "Times New Roman", Times, serif!important;
+        letter-spacing: 0;
+        margin-bottom: 5px;
+        font-style:italic;
+    }
+    
+        a:hover, h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover,
+        .kp-headline dd a:hover,
+        #top-menu li a:hover,
+        #secondary-menu li a:hover,
+        .entry-comments a:hover,
+        .entry-views a:hover,
+        .kp-featured-news-slider .entry-content .more-link:hover,
+        #bottom-sidebar .widget a:hover,
+        #toggle-view li h3:hover {
+            color: #6EABBA!important;
+            text-decoration: none;
+            outline: none;
+            
+        }
+    
+        a, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+            color: #222!important;
+            text-decoration: none !important;
+            outline: none !important;
+        }
+    
+    p {
+        margin-bottom: 10px;
+        line-height: 18px;
+    }
+    /* =========================================================
+    custom element style to the sharepoint ribbon - jp
+    ============================================================ */
+    .ms-rteiaStyle-BQ {
+    -ms-name: "BlockQuote";
+    -ms-element:"true";
+    }
+    .ms-rteiaStyle-BQ {
+    margin: 0 60px!important;
+    display:block;
+    font-size: inherit;
+    padding: 10px 20px;
+    border-left: 5px solid #eeeeee;
+    -ms-name: "BlockQuote";
+    -ms-element:"true";
+    }
+    .ms-rteiaStyle-authorbio {
+    margin-top: 50px;
+    display: block;
+    font-style: italic;
+    }
+    .ms-rteiaStyle-iacallout {
+    color: #666;
+    font-family: Georgia,"Times New Roman",Times,serif;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 24px;
+    padding: 10px 20px 5px 20px;
+    border-left: none;
+    margin-bottom: 15px;
+    }
+    .ms-rteiaElement-editedby {
+    margin-bottom: 30px;
+    display: block;
+    font-weight: normal;
+    color: #666;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 1.6em;
+    }
+    .ms-rteiaStyle-indentboth {
+    margin:0 60px;
+    display: block;
+    }
+    .ms-rteiaestate-field h1, h1.ms-rteiaElement-H1, .ms-rteiastate-field h2, h2.ms-rteiaElement-H2, .ms-rteiastate-field h3, h3.ms-rteiaElement-H3{
+        
+    } 
+    .ms-rtestate-field h4, h4.ms-rteiaElement-H4 {
+    color: #222;
+    font: 700 14px/20px Georgia, "Times New Roman", Times, serif;
+    letter-spacing: 0;
+    margin-bottom: 5px;
+    font-style: italic;
+    }
+    .ms-rtestate-field h5, h5.ms-rteiaElement-H5 {
+    color: #222;
+    font: 500 16px/20px Georgia, "Times New Roman", Times, serif;
+    letter-spacing: 0;
+    margin-bottom: 10px;
+    }
+            
+    /* =========================================================
+    END custom element style to the sharepoint ribbon\
+    ============================================================ */
+    
+    .main-content {
+        width: 100%;
+    }
+    
+    .ms-rteStyle-IIAPageBreakStyle {
+        -ms-name: "IIA Page Break Style";
+        font-style: bold;
+        color: red;
+    }
+    
+    .border-right {
+        border-right: 1px solid #d0d0d0;
+    }
+    
+    .width-100 {
+        width: 100%;
+    }
+    
+    /* removing style - jp */
+    /*.width-223 {
+        width: 223px !important;
+    }*/
+    
+    .edit-mode-panel {
+        background-color: #FFFFFF !important;
+    }
+    
+    .recent-articles ul li:first-child .entry-item .entry-content p {
+        display: inline !important;
+    }
+    
+     /* .main-content .widget.kp-featured-news-slider > ul > li {
+       border-top: 0px solid #D0D0D0 !important; - removing to test - jp 
+        list-style: none outside none;
+        margin: 0 0 0 0 !important;
+        padding-top: 0px !important;
+    }*/
+    
+    .margin-top-10 {
+        margin-top: 10px;
+    }
+    
+    .entry-date {
+        display: block;
+        /*white-space: nowrap; - jp */
+        white-space:pre-wrap;
+        overflow: hidden;
+        /*text-overflow: ellipsis;
+        max-width: 276px;*/
+        float:left;
+    }
+    
+    #voicesRotator .entry-date{
+        /*max-width: 172px;*/
+    }
+    
+    #related-post .entry-date{
+        /*max-width: 355px;*/
+    }
+    
+    #related-post div.border-bottom {
+        border-bottom: 1px solid #D0D0D0;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    
+    .featured-article-topic .entry-date{
+        /*max-width: 723px;*/
+    }
+    
+    .trending-now .entry-date{
+        /*max-width: 232px;*/
+    }
+    
+    
+    .entry-views {
+        margin-right: 0px !important;
+        /* Article views are temporarily hidden until solution for disparity between GA and SP views is solved */
+        display:none;
+    }
+    
+    .entry-views span{
+        float:left;
+    }
+    
+    #articleanonymouspopupContent{
+        display: none;
+    }
+    /* test
+    .ms-webpart-zone {
+    display:inline;
+    } */
+    .entry-content {
+        display:inline;
+    }
+    ul.cbs-List {
+    display: inline;
+    }
+    .ms-rteStyle-BQ {
+    margin: 0 60px!important;
+    display:block;
+    font-size: inherit;
+    padding: 10px 20px;
+    border-left: 5px solid #eeeeee;
+    -ms-name: "BlockQuote";
+    -ms-element:"true";
+    }
+    
+    /* =========================================================
+    adding ribbon text styles - jp
+    ============================================================ */
+    .ms-rteStyle-Deck {
+        color: #222!important;
+        font: 700 16px/20px Georgia, "Times New Roman", Times, serif!important;
+        letter-spacing: 0;
+        margin-bottom: 5px!important;
+        font-style: normal;
+        display:inline-block;
+        -ms-name:"Deck";
+        -ms-element:"true";
+    }
+    
+    .ms-rteStyle-Editedby {
+        
+        -ms-name:"Edited By";
+        -ms-element:"true";
+        margin-bottom: 30px;
+        display: block;
+    }
+    
+    .ms-rteStyle-IndentBoth {
+    margin: 0 30px!important;
+    font-size:inherit;
+    font-style: normal;
+    -ms-name:"Indent-Both";
+    -ms-element:"true";
+    }
+    
+    .ms-rteStyle-Callout {
+    color: #666;
+    font-family: Georgia,"Times New Roman",Times,serif;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 24px;
+    margin: 0px;
+    background-color: #F4F8FA;
+    display: block;
+    -ms-name:"Callout";
+    -ms-element:"true";
+    }
+    
+    .ms-rteStyle-Exclusive {
+    color: #222;
+    font: 500 18px/22px Georgia, "Times New Roman", Times, serif;
+    line-height: 24px;
+    margin: 0px;
+    -ms-name:"Exclusive";
+    -ms-element:"true";
+    }
+    
+    /* =========================================================
+    adjusting blockquote fontsize - jp
+    ============================================================ */
+    blockquote p {
+    font-size: 12px!important;
+    font-weight: 300;
+    }
+    
+    H2.ms-rteElement-H2B {
+    -ms-element:"false"!important;
+    }
+    /* =========================================================
+    adjusting article page date-spacing - jp
+    ============================================================ */
+    /*.entry-box header .entry-date {
+    margin-top: 8px;
+    }*/
+    /* =========================================================
+    homepage changes - jp
+    ============================================================ */
+    .widget-area-1 img {
+    /*max-width: 223px;*/
+    vertical-align: middle;
+    height: auto;
+    float: left;
+    /*padding-right: 10px;*/
+    /*padding-bottom:10px;*/
+    margin-bottom:5px!important;
+    }
+    
+    .widget-area-2 img {
+    max-width: 223px;
+    vertical-align: middle;
+    height: auto;
+    }
+    
+    .entry-date .entry-icon, .entry-comments .entry-icon, .entry-views .entry-icon {
+    margin-right: 5px;
+    float: left;
+    margin-top: 1px;
+    }
+    
+    .entry-date.clearfix a {
+    float: left;
+    margin-right: 5px;
+    }
+    
+    .entry-thumb img {
+    /*max-width: 223px;*/
+    max-width:100%;
+    height:auto;
+    float: left;
+    
+    /* removing padding -jp
+    padding-right: 10px;*/
+    }
+    img#FeaturedArticleImage {
+    max-width: 100%!important;
+    }
+    /* =========================================================
+    adding <hr> style id for top banner - jp
+    ============================================================ */
+    hr#tophead {
+    border-bottom: 1px solid #d0d0d0;
+    margin-bottom: 10px;	
+    }
+    /* =========================================================
+    adjusting top banner spacing - jp
+    ============================================================ */
+    div.topMenu {
+    min-height: 15px;
+    }
+    div.topMenuControl {
+    margin-top: 5px;
+    }
+    /* =========================================================
+    adjusting blog styling - jp
+    ============================================================ */
+    #blogstyle p {
+    font: 700 14px/20px Georgia, "Times New Roman", Times, serif;
+    letter-spacing: 0;
+    margin-bottom: 5px;
+    }
+    .widget.ia-blogs {
+    margin-top: 0;
+    }
+    
+    
+    /*#blogstyle > p > a {
+    color: #222!important;
+    font: 700 11px/20px Georgia, "Times New Roman", Times, serif;
+    letter-spacing: 0;
+    margin-bottom: 5px;
+    }*/
+    
+    #blogstyle > p > a {
+    color: #222!important;
+    margin-bottom: 2px;
+    font-size: 12px;
+    font-weight: normal;
+    margin-left: 20px;
+    }
+    
+    #blogstyle > p > a:hover {
+    color: #6EABBA!important;
+    text-decoration: none!important;
+    }
+    
+    #blogstyle p {
+    border-bottom: 1px solid #d0d0d0;
+    padding-bottom: 5px!important;
+    }
+    
+    #blogstyle p:last-child {
+    border: none;
+    margin-bottom: -5px;
+    }
+    /* =========================================================
+    adjusting video styling - jp
+    ============================================================ */
+    #videosidebar img {
+    border: 1px solid #d0d0d0;
+    }
+    /* =========================================================
+    adjusting voices styling - jp
+    ============================================================ */
+    #voicesRotator img {
+    padding-bottom: 10px;
+    padding-top:5px;
+    }
+    .widget-area-3 .kp-article-list-widget .latest-item {
+    border-right: none;
+    }
+    #ia-recentblog article {
+    border-bottom: 1px solid #d0d0d0;
+    padding-bottom: 20px;
+    }
+    /* =========================================================
+    adjusting twitter max-width - jp
+    ============================================================ */
+    #twitter-widget-0 {
+    max-width: 100%;
+    }
+    /* =========================================================
+    adjusting tablet img padding - jp
+    ============================================================ */
+    @media (min-width:768px) and (max-width:979px) {
+    .entry-thumb img {
+    padding-right: 10px;
+    }
+    }
+    /* =========================================================
+    adjusting padding for article page - jp
+    ============================================================ 
+    .entry-box {
+    margin-left: 10px;
+    }*/
+    /* =========================================================
+    adjusting topic page article page - jp
+    ============================================================ */
+    #topicpage-layout ul p a:hover {
+    text-decoration: underline;
+    color: orange!important;
+    }
+    .widget.kp-article-list-widget.kp-article-list-widget-last ul {
+    margin: 0!important;
+    }
+    /* =========================================================
+    adjusting h6 hover behavior - jp
+    ============================================================ */
+    h6.entry-title a:hover {
+    color: #6EABBA!important;
+    }
+    /* =========================================================
+    adjust ul/ol style page content - RichHtmlField page- jp
+    ============================================================ */
+    #pg-contenteditor ul {
+    margin-left: 60px;
+    list-style: square;
+    }
+    
+    #pg-contenteditor ol {
+    margin-left: 60px;
+    }
+    
+    #pg-contenteditor ul ul {
+    list-style: circle;
+    margin-left: 20px;
+    }
+    
+    #pg-contenteditor ul ul ul {
+    list-style: disc;
+    margin-left: 20px;
+    }
+    
+    #pg-contenteditor ul li:last-child {
+    margin-bottom: 10px;
+    }
+    
+    #pg-contenteditor ul ul li:last-child {
+    margin-bottom: 10px;
+    }
+    
+    #pg-contenteditor ol li:last-child {
+    margin-bottom: 10px;
+    }
+    
+    #pg-contenteditor ol ol li:last-child {
+    margin-bottom: 10px;
+    }
+    /* =========================================================
+    adjust homepage <hr/> style - jp
+    ============================================================ */
+    #recent-article-widget hr {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #d0d0d0;
+    border-style: solid;
+    border-width: 1px 0 0;
+    clear: both;
+    height: 0;
+    margin: 10px 0;
+    }
+    /* =========================================================
+    adjust tech/practice entry-date (author/icon) - jp
+    ============================================================ */
+    .ia-technology span.entry-date.clearfix {
+    display: none!important;
+    }
+    .ia-practices span.entry-date.clearfix {
+    display: none!important;
+    }
+    /* =========================================================
+    adjust technology widget margin - jp
+    ============================================================ */
+    .widget.ia-technology.ia-technology-last {
+    margin-top: -10px;
+    }
+    /* =========================================================
+    remove default img margin - jp
+    ============================================================ 
+    .main-content img {
+    margin: 0!important;
+    }*/
+    /* =========================================================
+    adjust widget-area-2 img padding - jp
+    ============================================================ */
+    .widget-area-2 img {
+    padding-bottom: 10px;
+    }
+    /* =========================================================
+    adjust blog margin - jp
+    ============================================================ 
+    #ia-blog-widget {
+    margin-top: -45px;
+    }*/
+    /* =========================================================
+    add hr style - blogs - jp
+    ============================================================ */
+    hr.iablog {
+    border-top: 1px solid #d0d0d0;
+    margin-bottom: -20px;
+    }
+    /* =========================================================
+    adjust word-wrap - whats trending - jp
+    ============================================================ */
+    .main-content .widget-area-5 .widget .entry-item .entry-title {
+    line-height: 16px;
+    }
+    .main-content .widget-area-5 .widget .entry-item .entry-thumb {
+    margin-bottom: 10px;
+    min-width: 52px;
+    min-height: 35px;
+    }
+    /* =========================================================
+    adjust image size - jp
+    ============================================================ */
+    .ia-governance-risk-compliance img {
+    max-width: 223px;
+    }
+    .ia-fraud img {
+    max-width: 223px;
+    }
+    /* =========================================================
+    adjust read-more link margin - jp
+    ============================================================ */
+    a.more-link.clearfix {
+    margin-top: 5px;
+    }
+    /* =========================================================
+    adjust widget2 p margin - jp
+    ============================================================ */
+    .main-content .widget-area-2 .widget ul li .entry-item .entry-content p {
+    margin-bottom:0;
+    }
+    /* =========================================================
+    adjust featured-news more-link - jp
+    ============================================================ */
+    .widget.ia-featured-news a.more-link.clearfix {
+    margin-top: -20px;
+    }
+    /* =========================================================
+    adjust recent article ul - jp
+    ============================================================ */
+    .widget.ia-recent-article ul {
+    margin-top: -8px;
+    }
+    /* =========================================================
+    adjust technology ul - jp
+    ============================================================ */
+    .widget.ia-technology ul {
+    margin-top: -8px;
+    }
+    /* =========================================================
+    adjust recent article ul - jp
+    ============================================================ */
+    .widget.ia-practices ul {
+    margin-top: -8px;
+    }
+    /* =========================================================
+    adjust entry box items - jp
+    ============================================================ */
+    .entry-box .entry-thumb img {
+    margin-bottom: 0;
+    max-width: 52px;
+    max-height: 35px;
+    }
+    .entry-box .entry-thumb {
+    margin-right:0;
+    margin-left:0;
+    }
+    /* =========================================================
+    adjust related article desktop - jp
+    ============================================================ */
+    #related-post ul li {
+    width: 420px;
+    margin-left: 0;
+    margin-right: 20px;
+    }
+    #related-post ul {
+    margin: -1px 0 0;
+    background: url('/Style Library/IA.Online/images/background/dot-1.png') repeat-y 430px 0;
+    }
+    .noimage-div {
+    display:none;
+    }
+    .ia-related-li-fix img {
+    max-width: 52px!important;
+    height: auto!important;
+    }
+    /*.noimage-div {
+    float: left;
+    min-width: 52px;
+    min-height: 35px;
+    display: block;
+    margin-bottom: 15px;
+    margin-top: 4px;
+    margin-right: 10px;
+    }*/
+    .masonry-wrapper {
+    margin: 0;
+    }
+    /* =========================================================
+    add button class for bottom nav - jp
+    ============================================================ */
+    .btn-ia-bottom-nav {
+        color: #ffffff!important;
+        background-color: #6EABBA;
+        border-color: #6EABBA;
+    }
+    .btn-ia-bottom-nav a {
+        color: #fff!important;
+    }
+    
+    .btn-ia-bottom-nav:hover,
+    .btn-ia-bottom-nav:focus,
+    .btn-ia-bottom-nav:active,
+    .btn-ia-bottom-nav.active,
+    .open .dropdown-toggle.btn-ia-bottom-nav {
+        color: #6EABBA;
+        background-color: #fff;
+        border-color: #6EABBA;
+    }
+    .btn-ia-bottom-nav:hover a,
+    .btn-ia-bottom-nav:focus a,
+    .btn-ia-bottom-nav:active a,
+    .btn-ia-bottom-nav.active a,
+    .open .dropdown-toggle.btn-ia-bottom-nav a {
+        border-color: #666!important;
+        color: #666!important;
+    }
+    
+    .btn-ia-bottom-nav:active,
+    .btn-ia-bottom-nav.active,
+    .open .dropdown-toggle.btn-ia-bottom-nav {
+        background-image: none;
+    }
+    a.dropdown-toggle.btn.btn-ia-bottom-nav.navbar-btn.btn-block:focus {
+    color: #fff!important;
+    background-color: #3a6f7c;
+    border-color: #3a6f7c;
+    }
+    ul#ia-nav.dropdown-menu li {
+    margin-left: 0;
+    }
+    /* =========================================================
+    fix h3 class for responsive menu - jp
+    ============================================================ 
+    #toggle-view-menu h3 {
+    font-size: 16px!important;
+    font-weight: 400!important;
+    margin: 0!important;
+    float: left!important;
+    line-height: 30px!important;
+    padding: 0 15px!important;
+    }*/
+    /* =========================================================
+    adjust share-box style - jp
+    ============================================================ */
+    div#ia-article-block ul {
+    margin-left: 0;
+    }
+    /* =========================================================
+    adjust older-post margin - jp
+    ============================================================ */
+    .widget-area-3 .kp-article-list-widget .older-post {
+        margin-top:0;
+    }
+    /* =========================================================
+    adding padding for article page - jp
+    ============================================================ */
+    #ia-article-col-a {
+    padding-left: 15px;
+    }
+    /* =========================================================
+    fix footer prev/next style - jp
+    ============================================================ */
+    footer#ctl00_PlaceHolderMain_ctl19_fPrevNext {
+    border-top: 1px solid #d0d0d0;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: Georgia,"Times New Roman",Times,serif;
+    padding: 12px 0 0px;
+    color:#000;
+    }
+    a#ctl00_PlaceHolderMain_ctl19_nextArticle {
+    text-transform: uppercase;
+    }
+    a#ctl00_PlaceHolderMain_ctl19_prevArticle {
+    text-transform: uppercase;
+    }
+    a#prevArticle {
+    text-transform: uppercase!important;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: Georgia,"Times New Roman",Times,serif;
+    color: #222!important;
+    }
+    a#prevArticle:hover {
+    color: #6EABBA!important;
+    }
+    a#nextArticle {
+    text-transform: uppercase!important;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: Georgia,"Times New Roman",Times,serif;
+    color: #222!important;
+    }
+    a#nextArticle:hover {
+    color: #6EABBA!important;
+    }
+    a#prevArticleTitle {
+    text-transform: none;
+    color: #222!important;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: Georgia,"Times New Roman",Times,serif;
+    }
+    a#prevArticleTitle:hover {
+    color: #6EABBA!important;
+    }
+    a#nextArticleTitle {
+    text-transform: none;
+    color: #222!important;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: Georgia,"Times New Roman",Times,serif;
+    }
+    a#nextArticleTitle:hover {
+    color: #6EABBA!important;
+    }
+    p.prev-post.pull-left.clearfix {
+    max-width: 400px;
+    }
+    p.next-post.pull-right.clearfix {
+    max-width: 400px;
+    }
+    /* =========================================================
+    footer a, a:hover override - jp
+    ============================================================ */
+    footer#ctl00_PlaceHolderMain_ctl19_fPrevNext a {
+    color: #000!important;
+    }
+    footer#ctl00_PlaceHolderMain_ctl19_fPrevNext a:hover {
+    color: #6EABBA!important;
+    text-decoration:none!important;
+    }
+    /* =========================================================
+    adjust sugggestion container - jp
+    ============================================================ */
+    .ms-taxonomy-suggestion-container {
+    position: inherit;
+    }
+    /* =========================================================
+    adjust article page images - jp
+    ============================================================ */
+    div#pg-content img {
+    max-width: 100%;
+    height: auto;
+    }
+    /* =========================================================
+    blog ul/li style - jp
+    ============================================================ */
+    #ia-blog-widget ul li {
+    list-style-type: none;
+    margin-left: 10px;
+    line-height: 1.6em;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #d0d0d0;
+    padding-bottom: 10px!important;
+    font-size: 12px;
+    }
+    #ia-blog-widget ul li:before {
+    /* content: "\e600b";
+    font-family: icomoon-blog;
+    */
+    content: "\f0a1";
+    font-family: FontAwesome;
+    font-size: 12px;
+    margin-right: 5px;
+    }
+    #ia-blog-widget ul li:last-child {
+    border: 0;
+    margin-bottom: -10px;
+    }
+    /* =========================================================
+    adjust column 2 img size - jp
+    ============================================================ */
+    @media screen and (min-width:1024px) {
+    .widget.ia-governance-risk-compliance img, div.widget.ia-fraud img {
+    max-width: 160px;
+    }
+    .about-author .avatar-thumb img {
+    margin-top: 0;
+    }
+    }
+    /* =========================================================
+    adjust blog landing page topics - jp
+    ============================================================ */
+    #RefinementName {
+    margin-left: 20px;
+    }
+    .refiner-item {
+    list-style-type: none;
+    margin-left: 10px;
+    line-height: 1.6em;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #d0d0d0;
+    padding-bottom: 10px!important;
+    font-size: 12px;
+    white-space:pre-wrap;
+    }
+    .refiner-item:before {
+    content: "\e6001";
+    font-family: 'icomoon-blog';
+    margin-right: 5px;
+    font-size: 11px;
+    }
+    #Container {
+    margin-top: 15px;
+    }
+    /* =========================================================
+    adjust current issue/blog button responsive - jp
+    ============================================================ */
+    ul#ia-blog-dropdown {
+    margin: 0;
+    }
+    ul#ia-texterity {
+    margin: -20px 0 -40px;
+    }
+    .widget.ia-blogs.visible-xs {
+    /*margin-top: -45px;*/
+    }
+    .widget.kp-video-widget img {
+    max-width: 160px;
+    margin-bottom: -15px;
+    }
+    .btn-default:hover {
+    color: #fff;
+    background-color: #6EABBA;
+    border-color: #adadad;
+    }
+    /* =========================================================
+    DEVCOM ia.online.css changes - 
+    ============================================================ */
+    .entry-icon.icon-lock {float: left;padding-right: 4px;padding-top: 3px;}
+    .entry-icon.icon-unlocked {
+    float:left;
+    padding-right: 4px;
+    padding-top: 2px
+    }
+    .entry-box header .entry-title {
+    font-size: 20px;
+    }
+    /* =========================================================
+    remove li style banner ad - jp
+    ============================================================ */
+    #top-banner li {
+    list-style-type: none;
+    }
+    /* =========================================================
+    adjust share-box - jp
+    ============================================================*/
+    .share-box {
+    border: 1px solid #dedede;
+    background-color: #f7f7f7;
+    padding: 10px 0;
+    margin: 20px 0 20px 20px;
+    clear: both;
+    }
+    .share-box.pull-right ul {
+    margin-left: 0!important;
+    }
+    /* =========================================================
+    adjust display mode ribbon css - jp
+    ============================================================*/
+    /*div.ms-rteiaElement-authorbio {
+    margin-top: 50px;
+    display: block;
+    font-style: italic;
+    }*/
+    /* =========================================================
+    adjust ol - jp
+    ============================================================*/
+    ol {
+    margin: 0 0 0 30px;
+    padding: 0;
+    }
+    #pg-content ol li a {
+    color: #6EABBA!important;
+    }
+    #pg-content ol li a:hover {
+    text-decoration: underline!important;
+    }
+    /* =========================================================
+    adjust video widget - jp
+    ============================================================*/
+    .kp-video-widget span.entry-date {
+    white-space: nowrap;
+    overflow: visible;
+    }
+    /* =========================================================
+    adjust article table/sidebar styles - jp
+    ============================================================*/
+    .entry-box table {
+    max-width: 35%;
+    float: right;
+    margin-left: 25px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    }
+    table.ms-rteiaTable-6 h2 {
+    padding: 0 20px;
+    }
+    table.ms-rteiaTable-default h2 {
+    padding: 0 10px;
+    }
+    #last-table {
+    max-width: 100%!important;
+    }
+    .entry-box table td {
+    background-color: #6eabba!important;
+    color: #222;
+    padding:20px;
+    }
+    .ms-rteiaTable-default p {
+    padding-left: 15px;
+    padding-right: 15px;
+    }
+    table.ms-rteiaTable-default.nosidebar {
+    max-width: 100%;
+    float: none;
+    margin: 0 0 20px 0;
+    }
+    .ms-rteiaTable-default.nosidebar td {
+    background-color: #fff!important;
+    color: #222!important;
+    }
+    span.ms-rteiaElement-nosidebar table {
+    max-width: 100%!important;
+    float: none!important;
+    margin: 0 0 20px 0!important;
+    }
+    span.ms-rteiaElement-nosidebar td {
+    background-color: #fff!important;
+    color: #222!important;
+    }
+    table.ms-rteiaTable-3 {
+    max-width: 100%!important;
+    float: none!important;
+    margin: 0 0 20px 0!important;
+    text-align: center;
+    margin-left: auto!important;
+    margin-right: auto!important;
+    }
+    .entry-box table.ms-rteiaTable-3 td {
+    background-color: #fff!important;
+    color: #222!important;
+    }
+    table.ms-rteiaTable-4 {
+    max-width: 75%!important;
+    float: none!important;
+    margin: 0 0 20px 0!important;
+    margin-left: auto!important;
+    margin-right: auto!important;
+    }
+    table.ms-rteTable-4
+    {
+        max-width: 100%!important;
+    float: none!important;
+    margin: 0 0 20px 0!important;
+    margin-left: auto!important;
+    margin-right: auto!important;
+    border:0;
+    }
+    .ms-rteTable-4, .ms-rteTable-4 > tbody > tr > td, .ms-rteTable-4 > tbody > tr > th {
+        border: 0;
+    }
+    table.ms-rteTable-4 >
+    .entry-box table.ms-rteiaTable-4 td {
+    background-color: #fff!important;
+    color: #222!important;
+    padding:10px;
+    }
+    .entry-box .ms-rteiaTable-4,
+    .ms-rteiaTable-4 > tbody > tr > td,
+    .ms-rteiaTable-4 > tbody > tr > th
+    {
+    border:0;
+    }
+    table.ms-rteiaTable-5 {
+    }
+    .entry-box table.ms-rteiaTable-5 td {
+    text-align: center;
+    padding:10px;
+    
+    }
+    .entry-box .ms-rteiaTable-5,
+    .ms-rteiaTable-5 > tbody > tr > td,
+    .ms-rteiaTable-5 > tbody > tr > th
+    {
+    /* [ReplaceColor(themeColor:"Lines")] */ border:1px solid #222;
+    }
+    table.ms-rteiaTable-5 li {
+    text-align: left;
+    }
+    table.ms-rteiaTable-6 {
+        max-width:100%!important;
+        margin-left: auto!important;
+        margin-right: auto!important;
+    }
+    .ms-rteiaTable-2,.ms-rteiaTable-3,.ms-rteiaTable-4,.ms-rteiaTable-5,.ms-rteiaTable-6 a {
+    color: #222!important;
+    /*text-decoration: underline!important;*/
+    }
+    .ms-rteiaTable-2,.ms-rteiaTable-3,.ms-rteiaTable-4,.ms-rteiaTable-5,.ms-rteiaTable-6 a:hover {
+    color: #222!important;
+    }
+    .ms-rteiaTable-6 p {
+    padding: 0 20px;
+    }
+    table.ms-rteiaTable-6 h3 {
+    padding: 0 20px;
+    margin: 0;
+    }
+    table.ms-rteiaTable-7 {
+    float: none!important;
+    margin: 0 0 20px 0!important;
+    max-width: 50%;
+    }
+    .entry-box table.ms-rteiaTable-7 td {
+    background-color: #fff!important;
+    color: #222!important;
+    padding:10px;
+    }
+    .ms-rteiaTable-7 img {
+    max-width: 75px!important;
+    }
+    /*.ms-rteiaTable-default h1,h2,h3,h4,h5 {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: -5px;
+    }*/
+    /* =========================================================
+    adjust homepage ad - jp
+    ============================================================*/
+    .ms-webpartzone-cell {
+    margin: auto auto 10px;
+    }
+    /* =========================================================
+    adjust article tables - jp
+    ============================================================*/
+    table#lifetime-opportunities {
+    max-width: 100%;
+    }
+    /* =========================================================
+    adjust related author archive item - jp
+    ============================================================*/
+    #ia-related-description {
+    clear: both;
+    border-bottom: 1px solid #d0d0d0;
+    margin: 10px 0;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    }
+    /* =========================================================
+    adjust homepage sidebar spacing - jp
+    ============================================================*/
+    .widget.ia-current-issue {
+    margin-bottom: 20px;
+    }
+    #ia-blog-widget {
+    margin-bottom: 20px;
+    }
+    .widget.kp-video-widget {
+    margin-bottom: 20px;
+    }
+    /* =========================================================
+    adjust archive page styling - jp
+    ============================================================*/
+    #Container {
+    margin: 0;
+    }
+    .ms-ref-refiner #Container {
+    padding: 0;
+    margin-bottom: 10px;
+    /*max-width: 165px;*/
+    }
+    .ms-ref-refinername:link, .ms-ref-refinername:visited {
+    padding: 5px 0 5px 0;
+    border: 0;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    font-size: 12px!important;
+    }
+    .side-bar-archive {
+    width: 240px;
+    }
+    .col-a-archive {
+    max-width: 670px;
+    }
+    .ms-ref-refiner #Container {
+    max-width: 250px;
+    }
+    #RefinementName {
+    margin-left: 0;
+    }
+    .refiner-item {
+    padding-left: 20px;
+    }
+    .ia-groups {
+    margin-top: -35px;
+    }
+    .ia-article-groups {
+    margin-top: -25px;
+    }
+    /* =========================================================
+    adjust fancybox modal popup - jp
+    ============================================================*/
+    .fancybox-wrap.fancybox-desktop.fancybox-type-inline.fancybox-opened {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center!important;
+    }
+    .fancybox-wrap.fancybox-desktop.fancybox-type-inline.fancybox-opened a {
+    color: #6EABBA!important;
+    font-size: 16px!important;
+    }
+    .fancybox-wrap.fancybox-desktop.fancybox-type-inline.fancybox-opened a:hover {
+    text-decoration: underline!important;
+    }
+    #ctl00_PlaceHolderMain_ctl20_ADArea ul {
+    list-style-type: none;
+    }
+    .fancybox-subscribe-now {
+    float: right;
+    }
+    .fancybox-logo img {
+    max-width: 200px;
+    margin-bottom: 30px;
+    }
+    .fancybox-logo {
+    float: left;
+    }
+    .fancybox-inner h4 {
+    margin-top: 30px;
+    font-size: 20px;
+    clear:both;
+    }
+    div.fancybox-popup-signin {
+    font-weight: normal;
+    font-size: 15px!important;
+    }
+    div.fancybox-popup-text {
+    margin-top: 20px;
+    color: #6eabba;
+    }
+    .fancybox-inner h4 {
+    margin-top: 30px;
+    font-size: 20px;
+    }
+    div.fancybox-popup-buttons {
+    margin-top: 30px;
+    }
+    span.fancybutton-1 {
+    float: left;
+    margin-top:15px;
+    }
+    span.fancybutton-2 {
+    float: right;
+    }
+    span.fancybutton-3 {
+    float: right;
+    cursor: pointer;
+    }
+    .fancybutton-1 a:hover {
+    text-decoration: underline!important;
+    }
+    .dummy-links {
+    margin-top: 20px;
+    }
+    a.dummy-fix {
+    margin-right: 20px;
+    }
+    /*	for ads */
+    .IA-archives-page-ad ul {
+    margin-bottom: 10px;
+    }
+    .visible-lg.whats-trending-desktop {
+    margin-top: 10px;
+    }
+    #ia-article-col-b ul {
+    list-style: none;
+    }
+    .adarea li img {
+    max-width: 350px;
+    }
+    #IA-Article-Ad-Rotator img {
+    margin-bottom: 15px;
+    }
+    .IA-archives-page-ad1 img {
+    margin-bottom: 10px;
+    }
+    .IA-archives-page-ad2 img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    }
+    /* =========================================================
+    adjust widget bottom margins - jp
+    ============================================================*/
+    .widget.ia-recent-article, .widget.ia-technology, .widget.ia-featured-news, .widget.ia-governance-risk-compliance {
+    margin-bottom: 15px;
+    }
+    /* =========================================================
+    adjust author page col-a - jp
+    ============================================================*/
+    .kp-sub-page .col-a.ia-author {
+    width: 923px;
+    min-width: 0;
+    }
+    #IA-AuthorBanner img {
+    max-width: 100%;
+    height: auto;
+    }
+    #IA-Authorpage-Search {
+    margin-top: -20px;
+    }
+    /* =========================================================
+    adjust article disclaimer text - jp
+    ============================================================*/
+    #IA-article-disclaimer {
+    font-size: 9px;
+    font-style: italic;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    }
+    /* =========================================================
+    adjust archive margin - jp
+    ============================================================*/
+    article#ia-article-archives:first-child {
+    margin-top: -45px;
+    }
+    #twitter-widget-0 {
+    max-width: 300px!important;
+    }
+    /* =========================================================
+    add image positions - jp
+    ============================================================*/
+    .ms-rteiaPosition-1{
+    float:left;
+    }
+    .ms-rteiaPosition-2{
+    float:right;
+    }
+    .ms-rteiaPosition-3{
+    vertical-align:text-top;
+    }
+    .ms-rteiaPosition-4{
+    vertical-align:middle;
+    }
+    .ms-rteiaPosition-5{
+    vertical-align:text-bottom;
+    }
+    img.ms-rteiaPosition-2 {
+    margin: 0 0 10px 10px!important;
+    }
+    /* =========================================================
+    adjust author avatar - jp
+    ============================================================*/
+    .avatar-thumb {
+    margin-top: 10px;
+    }
+    #ia-related-article .entry-date {
+    white-space: nowrap;
+    /*margin-right: 20px;*/
+    overflow: visible;
+    min-width: 95px;
+    }
+    @media only screen and (max-width:1025px){
+    #ia-article-col-a {
+    padding-left: 0!important;
+    }
+    h1 {
+    font: 700 18px Georgia, "Times New Roman", Times, serif!important;
+    }
+    #access h1 {
+    font-size: 16px!important;
+    }
+    }
+    @media only screen and (max-width:479px){
+    h1 {
+    font: 700 16px Georgia, "Times New Roman", Times, serif!important;
+    }
+    .wrapper {
+    width: 300px!important;
+    }
+    .ms-rteStyle-Deck {
+    font: 700 12px Georgia, "Times New Roman", Times, serif!important;
+    }
+    }
+    #toggle-view-menu > li {
+    padding: 5px 0;
+    }
+    #toggle-view-menu h3 {
+    padding: 5px 15px;
+    }
+    #toggle-view-menu {
+    border: 1px solid #cecece;
+    }
+    /* =========================================================
+    adjust ooyala player - jp
+    ============================================================*/
+    div#ooyalaplayer {
+    margin-left: auto;
+    margin-right: auto;
+    }
+    /*@media screen and (max-width:1500px){
+    #main-menu > li > a {
+    font-size: 14px;
+    }
+    }*/
+    /* =========================================================
+    add print style - jp
+    ============================================================*/
+    @media print {
+    body {
+    font: 12pt Georgia, "Times New Roman", Times, serif!important;
+    line-height: 1.3!important;
+    }
+    #top-banner img {
+    display: none;
+    }
+    h2 {
+    font-size: 14pt!important;
+    margin-top: 25px!important;
+    }
+    .header-bottom {
+    display: none;
+    }
+    #ia-article-col-b {
+    display: none;
+    }
+    .topMenu {
+    display: none;
+    }
+    .topMenuControl {
+    display: none;
+    }
+    hr#tophead {
+    display: none;
+    }
+    .col-a {
+    max-width: 610px!important;
+    border: 0!important;
+    }
+    #ia-article-col-a {
+    padding: 0!important;
+    margin-top: -60px;
+    }
+    .main-content {
+    border: 0!important;
+    padding: 0!important;
+    }
+    .share-box {
+    display: none;
+    }
+    .entry-comments a, .entry-views a {
+    display: none;
+    }
+    .entry-icon.icon-bubble {
+    display: none;
+    }
+    span.entry-icon.icon-eye {
+    display: none;
+    }
+    span#sViews {
+    display: none;
+    }
+    .entry-box header {
+    margin: 0!important;
+    }
+    header#ctl00_PlaceHolderMain_ctl03_hHeader {
+    margin-bottom: -20px!important;
+    }
+    #related-post {
+    display: none;
+    }
+    #aboutAuthor> h4 {
+    display: none;
+    }
+    #comments {
+    display: none;
+    }
+    #bottom-sidebar {
+    display: none;
+    }
+    li#ctl00_ctl58_liMyProfile {
+    display: none;
+    }
+    @page {
+    margin: 0.5cm;
+    }
+    }
+    /* =========================================================
+    sharpen focus - jp
+    ============================================================ */
+    .focusWrapper {
+        border: 1px solid #c7c5c5;
+        /* box-shadow: 0px 3px 10px 1px; */
+        padding: 1rem;
+        text-align: center;
+    }
+    .focusWrapper img {
+        margin-top: -8rem;
+    }
+    .focusWrapper p {
+        line-height: 2;
+        padding: 2rem 1rem 6rem;
+    }
+    .focusWrapper h2 {
+        font-size: 2.5rem!important;
+        color: #0cabe2!important;
+    }
+    #focushead {
+        margin-top: -2rem;
+        margin-bottom: 8rem;
+    }
+    #ia-article-col-c {
+        padding: 0 15px;
+    }
+    .focusBtn img {
+        margin: 0;
+    }
+    .focusWrapper {
+        border: 1px solid #c7c5c5;
+        /* box-shadow: 0px 3px 10px 1px; */
+        padding: 1rem;
+        text-align: center;
+        min-height: 400px;
+        position: relative;
+    }
+    .focusBtn {
+        position: absolute;
+        bottom: 25px;
+        left: 0;
+        right: 0;
+    }
+    .focusSocial img {
+        max-width: 50px;
+        margin-top: 0;
+    }
+    .focusSocial {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+    .focusFB {
+        float: left;
+        position: absolute;
+        bottom: 25px;
+        right: 60px;
+    }
+    .focusTwitter {
+        float: left;
+        position: absolute;
+        bottom: 25px;
+        left: 60px;
+    }
+    .col-a.nobrd {
+        border-right: 0;
+    }
+    a.btn.btn-lrg.btn-block.btn-focus {
+        background-color: #a3213b;
+        color: #fff!important;
+        text-transform: uppercase;
+        border-radius: 0;
+        width: 80%;
+        margin: auto;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+    a.btn.btn-lrg.btn-block.btn-focus:hover {
+        background-color: #691425;
+    }
+    #focushead h1 {
+        font-size: 2.5rem!important;
+        color: #0cabe2!important;
+    }
+    @media screen and (max-width:991px){
+    .focusWrapper img {
+        margin-top: 0;
+    }
+    .focusWrapper {
+        min-height: 0;
+        
+    }
+    }
+    /* =========================================================
+    add li link behavior - jp
+    ============================================================ */
+    .entry-box ul li a {
+    color: #6EABBA!important;
+    }
+    .entry-box ul li a:hover {
+    color: orange!important;
+    }
+    .share-box.pull-right a {
+    color: #222!important;
+    }
+    #related-post ul li .entry-item .entry-title a {
+    color: #222!important;
+    }
+    #related-post ul li .entry-item .entry-title a:hover {
+    color: #6EABBA!important;
+    }
+    @media screen and (max-width:480px){
+    .sidebar img {
+    display: none;
+    }
+    .col-a img {
+    display: none;
+    }
+    img#FeaturedArticleImage {
+    display: block!important;
+    }
+    }
+    .addthis_sharing_toolbox {
+        clear: none!important;
+    }
+    
+    /*------- web part adder z-index issue -----------*/
+    .ms-core-webpartadder
+    {
+        z-index:2000 !important;
+    }
+    .social-box
+    {
+        margin-bottom:10px;
+    }
+    .bottom-social-box
+    {
+        margin-top:15px;
+    }
